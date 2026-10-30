@@ -1,0 +1,41 @@
+
+.product-list {
+  width: 95%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.product-list h2 {
+  color: darkblue;
+}
+
+.product-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.product-list th {
+  background-color: blue;
+  color: white;
+}
+
+.product-list th,
+.product-list td {
+  border: 1px solid black;
+  padding: 12px;
+}
+
+.product-list tr:nth-child(even) {
+  background-color: #e3f2fd;
+}
+
+.edit-btn {
+  padding: 8px 15px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
